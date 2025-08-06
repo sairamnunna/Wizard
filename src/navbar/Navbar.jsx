@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from './Navbar.module.css';
-import { gsap } from "gsap";                  // Import gsap
+import { gsap } from "gsap";                  
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);

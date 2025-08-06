@@ -4,7 +4,7 @@ import gsap from "gsap";
 
 const Sectionb = () => {
   useEffect(() => {
-    // Select all img tags inside the mainsection
+    
     gsap.fromTo(
       `.${styles.mainsection} img`,
       {

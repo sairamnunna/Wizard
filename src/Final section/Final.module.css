@@ -9,7 +9,6 @@
 html,
 body {
     overflow-x: hidden;
-    /* remove horizontal scroll */
 }
 
 
@@ -26,16 +25,8 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
-
-/* .bottomcontainer{
-    padding: 0px 120px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
 .leftcontainer {
     min-height: 86vh;
-    /* width: 90%; */
     padding: 40px 60px;
     display: flex;
     justify-content: space-between;
@@ -46,7 +37,6 @@ body {
 .element1 {
     height: 450px;
     width: 47%;
-    /* background-color: red; */
     border: 3px solid black;
     border-radius: 50px;
     flex-shrink: 0;
@@ -159,7 +149,6 @@ body {
 .element2 {
     height: 450px;
     width: 47%;
-    /* background-color: red; */
     border: 3px solid black;
     border-radius: 50px;
     flex-shrink: 0;
@@ -181,7 +170,6 @@ body {
 .element3 {
     height: 450px;
     width: 47%;
-    /* background-color: red; */
     border: 3px solid black;
     border-radius: 50px;
     flex-shrink: 0;
@@ -203,7 +191,7 @@ body {
 .element4 {
     height: 450px;
     width: 47%;
-    /* background-color: red; */
+   
     border: 3px solid black;
     border-radius: 50px;
     flex-shrink: 0;
@@ -234,7 +222,6 @@ body {
   margin-bottom: 50px;
 }
 
-/* 📱 Mobile: 300px to 600px */
 @media (min-width: 300px) and (max-width: 600px) {
   .lefttopcontainer {
     flex-direction: column;
@@ -294,7 +281,7 @@ body {
   }
 }
 
-/* 📱 Tablet: 601px to 900px */
+
 @media (min-width: 601px) and (max-width: 900px) {
   .lefttopcontainer {
     flex-direction: column;
@@ -353,7 +340,6 @@ body {
   }
 }
 
-/* 💻 Small Desktop: 901px to 1200px */
 @media (min-width: 901px) and (max-width: 1200px) {
   .lefttopcontainer {
     padding: 30px 40px;
@@ -402,7 +388,6 @@ body {
   }
 }
 
-/* 🖥️ Large Desktop: 1201px to 1600px */
 @media (min-width: 1201px) and (max-width: 1600px) {
   .lefttopcontainer {
     padding: 40px 60px;

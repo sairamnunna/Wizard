@@ -26,7 +26,6 @@ const Final = () => {
   };
 
   useEffect(() => {
-    // Group 1 - Header
     gsap.timeline({
       scrollTrigger: {
         trigger: refs.trigger1.current,
@@ -38,7 +37,6 @@ const Final = () => {
       .fromTo(`.${styles.lefttopcontainer} h3`, { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 })
       .fromTo(`.${styles.lefttopcontainer} p`, { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
 
-    // Group 2
     gsap.timeline({
       scrollTrigger: {
         trigger: refs.trigger2.current,
@@ -50,7 +48,6 @@ const Final = () => {
       .fromTo(elements.element1Ref.current, { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 })
       .fromTo(elements.elementBlack1Ref.current, { x: 200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
 
-    // Group 3
     gsap.timeline({
       scrollTrigger: {
         trigger: refs.trigger3.current,
@@ -62,7 +59,6 @@ const Final = () => {
       .fromTo(elements.elementBlack2Ref.current, { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 })
       .fromTo(elements.element2Ref.current, { x: 200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
 
-    // Group 4
     gsap.timeline({
       scrollTrigger: {
         trigger: refs.trigger4.current,
@@ -74,7 +70,6 @@ const Final = () => {
       .fromTo(elements.element3Ref.current, { x: -200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 })
       .fromTo(elements.elementBlack3Ref.current, { x: 200, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
 
-    // Group 5
     gsap.timeline({
       scrollTrigger: {
         trigger: refs.trigger5.current,
@@ -89,7 +84,6 @@ const Final = () => {
 
   return (
     <div className={styles.mainsection}>
-      {/* Group 1 */}
       <div className={styles.topcontainer} ref={refs.trigger1}>
         <div className={styles.lefttopcontainer}>
           <h3>Services</h3>
@@ -103,7 +97,6 @@ const Final = () => {
       </div>
 
       <div className={styles.leftcontainer}>
-        {/* Group 2 */}
         <div ref={refs.trigger2} className={styles.pairContainer}>
           <div className={styles.element1} ref={elements.element1Ref}>
             <div className={styles.elem1}>
@@ -124,8 +117,6 @@ const Final = () => {
             </div>
           </div>
         </div>
-
-        {/* Group 3 */}
         <div ref={refs.trigger3} className={styles.pairContainer}>
           <div className={styles.elementblack2} ref={elements.elementBlack2Ref}>
             <div className={styles.elem1black}>
@@ -146,8 +137,6 @@ const Final = () => {
             </div>
           </div>
         </div>
-
-        {/* Group 4 */}
         <div ref={refs.trigger4} className={styles.pairContainer}>
           <div className={styles.element3} ref={elements.element3Ref}>
             <div className={styles.elem1}>
@@ -169,7 +158,6 @@ const Final = () => {
           </div>
         </div>
 
-        {/* Group 5 */}
         <div ref={refs.trigger5} className={styles.pairContainer}>
           <div className={styles.elementblack4} ref={elements.elementBlack4Ref}>
             <div className={styles.elem1black}>

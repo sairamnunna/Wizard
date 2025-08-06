@@ -42,7 +42,7 @@
     width: 85%;
     margin-left: 50px;
 }
-/* 300px to 600px - Mobile */
+
 @media (min-width: 300px) and (max-width: 600px) {
   .container {
     flex-direction: column;
@@ -80,7 +80,7 @@
   }
 }
 
-/* 601px to 900px - Tablet */
+
 @media (min-width: 601px) and (max-width: 900px) {
   .container {
     flex-direction: row;
@@ -118,7 +118,6 @@
   }
 }
 
-/* 901px to 1200px - Small Desktop */
 @media (min-width: 901px) and (max-width: 1200px) {
   .container {
     padding: 30px 60px;
@@ -153,8 +152,6 @@
     margin-top: 30px;
   }
 }
-
-/* 1201px to 1600px - Large Desktop */
 @media (min-width: 1201px) and (max-width: 1600px) {
   .container {
     padding: 30px 100px;
